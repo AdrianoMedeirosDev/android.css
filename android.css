@@ -1,0 +1,348 @@
+/*
+ * Android
+ * Por: Leandromeda (Leandro Gaudio Rosa)
+ */
+
+
+div div {position: relative;}
+
+.android {
+    height: 404px; width: 334px;
+	margin: 100px auto;
+    position: relative;
+    float: left;   
+    margin-left: 130px;
+}
+
+.head{
+    background: #A4CA39; 
+	width: 220px; height: 100px;
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eye, .right_eye {
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eye {left: 50px;}
+.right_eye {right: 50px;}
+
+.left_ant, .right_ant{
+    background: #A4CA39; 
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.left_ant {
+    background: #A4CA39; 
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+.right_ant {
+    background: #A4CA39; 
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.body{
+    background: #A4CA39; 
+	width: 220px; height: 184px;
+	top: 40px;
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.left_arm, .right_arm, .left_leg, .right_leg {
+    background: #A4CA39; 
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_arm, .right_arm {
+    background: #A4CA39; 
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_leg, .right_leg {
+    background: #A4CA39; 
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_arm {left: -58px;}
+.right_arm {right: -58px;}
+.left_leg {left: 45px;}
+.right_leg {right: 45px;}
+
+.head:hover {
+    background: #A4CA39; 
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_arm:hover{
+    background: #A4CA39; 
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_arm:hover{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
+
+/*Android rosa*/
+.androidrosa{
+	height: 404px; width: 334px;
+	margin: 100px auto;
+    position: relative;
+    float: left;   
+    margin-left:130px;
+	
+}
+
+.headrosa{
+    background: #f802bb; 
+	width: 220px; height: 100px;
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eyerosa, .right_eyerosa {
+    background: #f802bb; 
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eyerosa {left: 50px;}
+.right_eyerosa {right: 50px;}
+
+.left_antrosa, .right_antrosa{
+    background: #f802bb; 
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.left_antrosa {
+    background: #f802bb; 
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+.right_antrosa {
+    background: #f802bb; 
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.bodyrosa{
+    background: #f802bb; 
+	width: 220px; height: 184px;
+	top: 40px;
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.left_armrosa, .right_armrosa, .left_legrosa, .right_legrosa {
+    background: #f802bb; 
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_armrosa, .right_armrosa {
+    background: #f802bb; 
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_legrosa, .right_legrosa {
+    background: #f802bb; 
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_armrosa {left: -58px;}
+.right_armrosa {right: -58px;}
+.left_legrosa {left: 45px;}
+.right_legrosa {right: 45px;}
+
+.headrosa:hover {
+    background: #f802bb; 
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_armrosa:hover{
+    background: #f802bb; 
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_armrosa:hover{
+    background: #f802bb; 
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
+/*Android azul*/
+.androidazul{
+	height: 404px; width: 334px;
+	margin: 100px auto;
+    position: relative;
+    float: left;   
+    margin-left:130px;
+	
+}
+
+.headazul{
+    background: #010dff; 
+	width: 220px; height: 100px;
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eyeazul, .right_eyeazul {
+    background: #010dff; 
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eyeazul {left: 50px;}
+.right_eyeazul {right: 50px;}
+
+.left_antazul, .right_antazul{
+    background: #010dff;  
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.left_antazul {
+    background: #010dff; 
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+.right_antazul {
+    background: #010dff; 
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.bodyazul{
+    background: #010dff; 
+	width: 220px; height: 184px;
+	top: 40px;
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.left_armazul, .right_armazul, .left_legazul, .right_legazul {
+    background: #010dff; 
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_armazul, .right_armazul {
+    background: #010dff; 
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_legazul, .right_legazul {
+    background: #010dff; 
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_armazul {left: -58px;}
+.right_armazul {right: -58px;}
+.left_legazul {left: 45px;}
+.right_legazul {right: 45px;}
+
+.headazul:hover {
+    background: #010dff; 
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_armazul:hover{
+    background: #010dff; 
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_armazul:hover{
+    background: #010dff; 
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
